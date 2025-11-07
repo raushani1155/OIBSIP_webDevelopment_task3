@@ -1,0 +1,53 @@
+
+/* Temperature Converter Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #03000fdc, #04233b);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.container {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  text-align: center;
+}
+
+h2 {
+  color: #2d3436;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #b2bec3;
+  font-size: 16px;
+}
+
+button {
+  background: #0c6a58;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #019870;
+}
+.result {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2d3436;
+}
